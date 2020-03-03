@@ -8,3 +8,7 @@ local: true  #Enable for github
 # edit here to achieve your personal greatness
 url: https://sumit.murari.me
 baseurl: ""
+
+sass:
+  sass_dir: _scss
+  style: :compressed
