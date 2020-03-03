@@ -1,0 +1,21 @@
+{% if site.data.sidebar.social.email %}
+<div class="together">
+    <h4 class="together-top"> E-mail </h4>
+    <p class="together-bottom"> <a href="mailto:{{ site.data.sidebar.social.email }}">{{ site.data.sidebar.social.email }}</a> </p>
+</div>
+{% endif %}
+
+{% if site.data.sidebar.social.github %}
+<div class="together">
+    <h4 class="together-top"> Github</h4>
+    <p class="together-bottom"><a href="https://github.com/murarisumit">github.com/{{site.data.sidebar.social.github}}</a></p>
+</div>
+{% endif %}
+
+{% if site.data.sidebar.social.linkedin %}
+<div class="together">
+    <h4 class="together-top"> Linkedin </h4>
+    <p class="together-bottom"><a href="https://linkedin.com/in/murarisumit"> linkedin.com/in/{{ site.data.sidebar.social.linkedin }}</a></p>
+</div>
+{% endif %}
+

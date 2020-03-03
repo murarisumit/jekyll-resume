@@ -1,0 +1,51 @@
+---
+layout: default
+title: Jekyll Boilerplate
+---
+
+<div class="row">
+    <div class="side"> 
+    <div class="whoami">
+        {% include whoami.html %}
+    </div>
+
+    <div class="personal-info">
+        <div class="heading-bar"> 
+            <h3> Personal Info</h3>
+        </div>
+        <div class="sidebar-content">
+            {% include social.html %}
+        </div>
+    </div>  <!-- personal-info -->
+
+    <div class="skills">
+        <div class="heading-bar"> 
+            <h3> Skills</h3>
+        </div> <!-- heading-bar -->
+        <div class="sidebar-content">
+            {% include skills.html %}
+        </div> <!-- sidebar-content -->
+    </div> <!-- skill -->
+    <div class="software">
+        <div class="heading-bar"> 
+        <h3> Software</h3>
+        </div> <!-- heading-bar -->
+        <div class="sidebar-content">
+            {% include software.html %}
+        </div> <!-- sidebar-content -->
+    </div> <!-- software -->
+
+    <div class="languages">
+        <div class="heading-bar"> 
+        <h3> Languages</h3>
+        </div> <!-- heading-bar -->
+        <div class="sidebar-content">
+            {% include prog_lang.html %}
+        </div> <!-- sidebar-content -->
+    </div> <!-- language -->
+
+    </div> <!-- side -->
+    <div class="main">
+    </div> <!-- main -->
+</div>
+

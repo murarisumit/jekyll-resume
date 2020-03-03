@@ -1,0 +1,28 @@
+whoami:
+  name: Sumit Murari
+  position: Senior Devsecops
+
+social:
+  github: murarisumit
+  linkedin: murarisumit
+  email: sumit@murari.me
+
+skills:
+  - AWS
+  - Automation
+  - IaaC
+  - Containers
+  - nix OS
+  - Security
+
+software:
+  - Kubernetes, Docker
+  - AWS, Azure
+  - Terraform
+  - Ansible, Puppet
+  - Debian, Ubuntu
+  - ELK stack
+  - Prometheus, Grafana,
+prog_lang:
+  - python
+  - java
