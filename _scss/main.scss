@@ -1,20 +1,28 @@
 /* Reference: https://stackoverflow.com/a/21795173 */
-$mainbar-color-bg: #cac9c8;
-$sidebar-color-bg : #003d74;
-$sidebar-heading-color: #072a50;
-$text-color: white;
 $font-family: "Trebuchet MS";
 $A4width: 210mm;
 $A4height: 297mm;
 
+$sidepanel-color-bg : #003d74;
+$sidepanel-heading-color: #072a50;
+$sidepanel-text-color: white;
+
+$mainpanel-color-bg: #cac9c8;
+$mainpanel-heading-color: white;
+$mainpanel-text-color: black;
 
 /*============     Utils ==============*/
-.heading-bar {
+.mainpanel-heading {
   padding-left: 2mm;
-  background-color: $sidebar-heading-color;
+  background-color: $mainpanel-heading-color;
 }
 
-.sidebar-content {
+.sidepanel-heading {
+  padding-left: 2mm;
+  background-color: $sidepanel-heading-color;
+}
+
+.sidepanel-content {
   padding-left: 2mm;
 }
 
@@ -39,31 +47,38 @@ body {
   margin-right: auto;
 }
 
-a {
-  color: $text-color;
+.sidepanel a {
+  color: $sidepanel-text-color;
 }
+
+.mainpanel a {
+  color: $mainpanel-text-color;
+}
+
 /*=======================================*/
 
 
 /* Column container */
-.row {  
+.row {
   display: flex;
   flex-direction: row;
-  color: $text-color;
+  color: $sidepanel-text-color;
 }
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
-.side {
+.sidepanel {
   flex: 30%;
-  background-color: $sidebar-color-bg;
+  background-color: $sidepanel-color-bg;
+  color: $sidepanel-text-color;
   height: $A4height;
 }
   
   /* Main column */
-.main {
+.mainpanel {
   flex: 70%;
-  background-color: $mainbar-color-bg;
+  background-color: $mainpanel-color-bg;
   height: $A4height;
+  color: $mainpanel-text-color;
 }
 
 .whoami {
